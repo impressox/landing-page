@@ -62,8 +62,8 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="flex-1 w-full">
-          <img src="./images/ai-agent-avatar.png" alt="AI Agent" className="w-full border-none rounded-4xl max-w-[400px] mx-auto" />
+        <div className="w-full lg:w-1/2">
+          <img src="./images/ai-agent-avatar.png" alt="AI Agent" className="w-full border-none rounded-4xl max-w-[500px] mx-auto" />
         </div>
       </section>
 
@@ -71,7 +71,7 @@ export default function Home() {
       <section className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
         {/* Card 1 */}
         <div className="bg-[#101a2f] rounded-xl overflow-hidden shadow-md flex flex-col">
-          <div className="aspect-[4/3] overflow-hidden">
+          <div className="aspect-[6/5] overflow-hidden">
             <img src="/images/cross-chain.png"
               alt="Cross Chain" className="w-full h-full object-cover" />
           </div>
@@ -86,7 +86,7 @@ export default function Home() {
 
         {/* Card 2 */}
         <div className="bg-[#101a2f] rounded-xl overflow-hidden shadow-md flex flex-col">
-          <div className="aspect-[4/3] overflow-hidden">
+          <div className="aspect-[6/5] overflow-hidden">
             <img src="/images/ai-agent.png"
               alt="AI Agents" className="w-full h-full object-cover" />
           </div>
@@ -101,7 +101,7 @@ export default function Home() {
 
         {/* Card 3 */}
         <div className="bg-[#101a2f] rounded-xl overflow-hidden shadow-md flex flex-col">
-          <div className="aspect-[4/3] overflow-hidden">
+          <div className="aspect-[6/5] overflow-hidden">
             <img src="/images/multi-platform.png"
               alt="Multi-Platform" className="w-full h-full object-cover" />
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
 
         {/* Card 4 */}
         <div className="bg-[#101a2f] rounded-xl overflow-hidden shadow-md flex flex-col">
-          <div className="aspect-[4/3] overflow-hidden">
+          <div className="aspect-[6/5] overflow-hidden">
             <img src="/images/real-time-insights.png"
               alt="Real-time Insights" className="w-full h-full object-cover" />
           </div>
