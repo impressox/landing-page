@@ -10,7 +10,29 @@ export default function Home() {
   return (
     <div className={`w-full max-w-[1366px] mx-auto px-6 py-8 !${geistSans.variable} !font-geist-sans`}>
       <Head>
-        <title>ImpressoX – AI Agents for Cross-Chain</title>
+        <title>ImpressoX – AI Agents for Cross-Chain DeFi</title>
+
+        <meta name="description" content="ImpressoX is your AI execution layer for cross-chain DeFi, powered by Espresso for fast, private, and fair swaps." />
+
+        {/* Google / Search Engine Tags */}
+        <meta itemProp="name" content="ImpressoX – AI Agents for Cross-Chain DeFi" />
+        <meta itemProp="description" content="AI handles your token swaps across chains with privacy, scalability, and fairness. Built on Espresso." />
+        <meta itemProp="image" content="https://impressox.ai/images/impressox-card.png" />
+
+        {/* Twitter Card data */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="ImpressoX – AI Agents for Cross-Chain DeFi" />
+        <meta name="twitter:description" content="Trade smarter with AI across Ethereum, Arbitrum, OP, and more. Powered by Espresso for private, fair execution." />
+        <meta name="twitter:image" content="https://impressox.ai/images/impressox-card.png" />
+        <meta name="twitter:site" content="@ImpressoX" />
+        <meta name="twitter:creator" content="@ImpressoX" />
+
+        {/* Facebook Open Graph */}
+        <meta property="og:title" content="ImpressoX – AI Agents for Cross-Chain DeFi" />
+        <meta property="og:description" content="Execute secure, intelligent swaps across chains with AI. No bridges. No apps. Just message your AI." />
+        <meta property="og:image" content="https://impressox.ai/images/impressox-card.png" />
+        <meta property="og:url" content="https://impressox.ai/" />
+        <meta property="og:type" content="website" />
       </Head>
       {/* Header */}
       <header className="flex items-center justify-between w-full mb-12">
