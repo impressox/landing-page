@@ -75,12 +75,12 @@ export default function Home() {
               <span className="text-[#2EC4A4] mt-1">
                 <i className="fas fa-check-circle"></i>
               </span>
-              <span>Powered by Eliza and Espresso Sequencer</span>
+              <span>Powered by Cpx Team and Espresso Sequencer</span>
             </li>
           </ul>
 
-          <button className="mt-6 bg-[#2EC4A4] hover:bg-[#32a78d] text-white cursor-pointer px-6 py-3 rounded-lg font-medium flex items-center gap-3 shadow-lg" onClick={() => window.open('https://t.me/impressox_bot', '_blank')}>
-            <i className="fab fa-telegram-plane"></i> Chat With AI Agent
+          <button className="mt-6 bg-[#2EC4A4] hover:bg-[#32a78d] text-white cursor-pointer px-6 py-3 rounded-lg font-medium flex items-center gap-3 shadow-lg" onClick={() => window.open('https://t.me/Lili_CpXAgent_bot', '_blank')}>
+            <i className="fab fa-telegram-plane"></i> Chat With Lili
           </button>
         </div>
 
